@@ -8,7 +8,16 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.2.RELEASE</version>
     </parent>
-
+    <repositories>
+      <repository>
+        <id>spring-snapshots</id>
+        <name>Spring Snapshots</name>
+        <url>https://repo.spring.io/libs-snapshot</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+      </repository>
+    </repositories>
     <groupId>com.github.binarywang</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <artifactId>weixin-java-miniapp-demo</artifactId>
